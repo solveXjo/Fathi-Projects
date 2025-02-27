@@ -1,1 +1,2 @@
-# Fathi-s-Project
+# Fathi Projects
+Hello and Welcome to Fathi's Projects
