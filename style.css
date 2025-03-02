@@ -577,7 +577,7 @@ span {
 }
 
 .project-image img {
-    width: 100%;
+    width: 250px;
     height: 100%;
     object-fit: cover;
     transition: var(--transition);
