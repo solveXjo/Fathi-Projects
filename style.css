@@ -945,6 +945,47 @@ footer {
         margin: 0 0 20px 0;
     }
 }
+
+
+.About-social {
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.About-social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--card-bg);
+    border-radius: 50%;
+    transition: var(--transition);
+}
+
+.About-social a i {
+    font-size: 1.2rem;
+}
+
+.About-social a.github-link:hover {
+    background-color: #9e56c6;
+    transform: translateY(-5px);
+}
+
+.About-social a.youtube-link:hover {
+    background-color: #ff0000;
+    transform: translateY(-5px);
+}
+
+.About-social a.linkedin-link:hover {
+    background-color: #0077b5;
+    transform: translateY(-5px);
+}
+
 /* Project Detail Section */
 .project-detail {
     padding: 80px 0;
